@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'f';
+    src: url("../fonts/hyzjh.ttf");
+}
+@font-face {
+    font-family: 'i';
+    src: url("../fonts/fontawesome-webfont.ttf");
+}
+.ret{
+    font-family: f;
+    font-size: 30px;
+}
+.ret::before{
+    content: "abc";
+}
+.icon{
+    font-family: i;
+    font-size: 30px;
+    font-style: normal;
+}
+.icon::before{
+    content: "\f130";
+}
